@@ -3,16 +3,8 @@ Simple data transformer built in Go
 
 Build: [![Circle CI](https://circleci.com/gh/danesparza/xformer.svg?style=svg)](https://circleci.com/gh/danesparza/xformer)
 
-*To build, make sure you have the latest version of [Go](http://golang.org/) installed.  If you've never used Go before, it's a quick install and [there are installers for multiple platforms](http://golang.org/doc/install), including Windows, Linux and OSX.*
-
 ### Quick Start
-
-Run the following commands get latest and build.
-
-```bash
-go get github.com/danesparza/xformer
-go build
-```
+Just grab the [latest release](https://github.com/danesparza/xformer/releases) for your platform.  It's a single binary.
 
 ### Command line parameters
 If you need help, just run `xformer --help`.
@@ -52,4 +44,14 @@ insert into SomeTable(FieldA, SomeOtherField, TheTeam, TheLocation) values('Fiel
 insert into SomeTable(FieldA, SomeOtherField, TheTeam, TheLocation) values('FieldAValue', 'ThisOtherConstantValue', 'Team B','Location 4423')
 insert into SomeTable(FieldA, SomeOtherField, TheTeam, TheLocation) values('FieldAValue', 'ThisOtherConstantValue', 'Team C','Location 823')
 insert into SomeTable(FieldA, SomeOtherField, TheTeam, TheLocation) values('FieldAValue', 'ThisOtherConstantValue', 'Team Bogus','Location testing')
+```
+### Building 
+
+*To build, make sure you have the latest version of [Go](http://golang.org/) installed.  If you've never used Go before, it's a quick install and [there are installers for multiple platforms](http://golang.org/doc/install), including Windows, Linux and OSX.*
+
+Run the following commands get latest and build.
+
+```bash
+go get github.com/danesparza/xformer
+go build
 ```
