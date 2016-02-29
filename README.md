@@ -1,7 +1,5 @@
-# xformer
+# xformer [![Circle CI](https://circleci.com/gh/danesparza/xformer.svg?style=svg)](https://circleci.com/gh/danesparza/xformer)
 Simple data transformer built in Go
-
-Build: [![Circle CI](https://circleci.com/gh/danesparza/xformer.svg?style=svg)](https://circleci.com/gh/danesparza/xformer)
 
 ### Quick Start
 Just grab the [latest release](https://github.com/danesparza/xformer/releases) for your platform.  It's a single binary.
